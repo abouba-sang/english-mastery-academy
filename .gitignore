@@ -1,0 +1,54 @@
+# General
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.code-workspace
+
+# Build and Dependency directories
+/node_modules/
+/build/
+/dist/
+/.cache/
+/.tmp/
+
+# Logs and backups
+*.log
+*.bak
+*.backup
+logs/
+*.json.backup
+
+# OS-specific files
+.DS_Store
+desktop.ini
+
+# Compiled files
+*.class
+*.war
+*.ear
+*.jar
+
+# Package files
+*.zip
+*.tar
+*.gz
+
+# Environment-specific files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.staging
+.env.production
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+npm-shrinkwrap.json
